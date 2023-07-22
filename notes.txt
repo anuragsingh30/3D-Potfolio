@@ -1,0 +1,3 @@
+after insializing tailwindcss
+--> npm install --legacy-peer-deps @react-three/fiber @react-three/deri maath react-tilt react-vertical-timeline-component @emailjs/browser framer-react-router-dom
+--> to run --npm run dev
