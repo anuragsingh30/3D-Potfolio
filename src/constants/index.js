@@ -21,7 +21,8 @@ import {
     tesla,
     shopify,
     // carrent,
-    jobit,
+    // jobit,
+    blog,
     tripguide,
     threejs,
   } from "../assets";
@@ -223,27 +224,31 @@ import {
       image: clock,
       source_code_link: "https://github.com/anuragsingh30/Basic-Clock",
     },
-    // {
-    //   name: "Job IT",
-    //   description:
-    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "restapi",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "scss",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: jobit,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "Blog-Space",
+      description:
+        "A blog website where you can compose and see your blog",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "ejs",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: blog,
+      source_code_link: "https://github.com/anuragsingh30/blog-space",
+    },
     // {
     //   name: "Trip Guide",
     //   description:
