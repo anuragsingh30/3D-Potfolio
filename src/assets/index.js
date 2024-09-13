@@ -29,7 +29,8 @@ import clock from "./clock.png"
 import carrent from "./carrent.png";
 // import jobit from "./jobit.png";
 import blog from "./blog.png";
-import tripguide from "./tripguide.png";
+// import tripguide from "./tripguide.png";
+import kanban from "./kanban.png";
 
 export {
   logo,
@@ -61,5 +62,6 @@ export {
   carrent,
   // jobit,
   blog,
-  tripguide,
+  // tripguide,
+  kanban,
 };

@@ -44,7 +44,7 @@ const ExperienceCard = ({ experience }) => {
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>
         {experience.points.map((point, index) => (
-          <li
+         <li 
             key={`experience-point-${index}`}
             className='text-white-100 text-[14px] pl-1 tracking-wider'
           >
@@ -63,6 +63,7 @@ const Experience = () => {
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
         </p>
+        color: "#fff",
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Work Experience.
         </h2>

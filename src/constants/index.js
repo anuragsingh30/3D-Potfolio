@@ -23,7 +23,8 @@ import {
     // carrent,
     // jobit,
     blog,
-    tripguide,
+    // tripguide,
+    kanban,
     threejs,
   } from "../assets";
 
@@ -249,27 +250,27 @@ import {
       image: blog,
       source_code_link: "https://github.com/anuragsingh30/blog-space",
     },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "Kanban Board",
+      description:
+        "A Trello inspired Kanban Board for task management",
+      tags: [
+        {
+          name: "ReactJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NodeJs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDb",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: kanban,
+      source_code_link: "https://github.com/anuragsingh30/Kanban-Board-Task-Management",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };//testimonials
